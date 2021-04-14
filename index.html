@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="tutorial">
+        <h1 class="tutorial-text tutorial-header">Welcome to Algorithm and Data Structure!</h1>
+        <h3 class="tutorial-text tutorial-intro">This guide will walk you through all the features of this application.
+        </h3>
+        <p class="tutorial-text tutorial-paragraph">
+            If you want to dive right in, you can press the "Skip tutorial" button, or you can click "Next" to continue.
+            <br>
+            Please note that this is designed for desktop, viewing in mobile is not recommended!</p>
+        <div class="tutorial-counter">1/7</div>
+        <button class="btn btn-skip btn-tutorial">Skip tutorial</button>
+        <button class="btn btn-previous btn-tutorial">Previous</button>
+        <button class="btn btn-next btn-tutorial">Next</button>
+    </div>
+    <div class="big-container">
+        <nav class="main-nav">
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <div class="dropdown">
+                <div class="brand">Data Structure and Algorithm</div>
+                <div class="nav-content-container">
+                    <div class="algorithm-dropdown dropdown-container">
+                        <button class="button-nav algoBtn">Algorithm<i class="arrow down"></i></button>
+                        <ul class="ul-algo">
+                            <li class="algorithm path-finding dijkstra">Dijkstra</li>
+                            <li class="algorithm path-finding breath-first-search">Breadth-first search</li>
+                            <li class="algorithm path-finding a*">A*</li>
+                            <li class="algorithm path-finding depth-first-search">Depth-first search</li>
+                            <li class="algorithm sort merge-sort">Merge Sort</li>
+                            <li class="algorithm sort bubble-sort">Bubble Sort</li>
+                        </ul>
+                    </div>
+                    <div class="datastructure-dropdown dropdown-container">
+                        <button class="button-nav dtStructureBtn">Data Structure<i class="arrow down"></i></button>
+                        <ul class="ul-ds">
+                            <li class="data-structure link-list">Linked List</li>
+                            <li class="data-structure queue">Queue</li>
+                            <li class="data-structure stack">Stack</li>
+                            <li class="data-structure hash-table">Hash Table</li>
+                            <li class="data-structure heap">Heap</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="main-container">
+            <div class="table-contents-container"></div>
+            <div class="illustration-container"></div>
+            <div class="code-container"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
